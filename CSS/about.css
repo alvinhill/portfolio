@@ -1,0 +1,82 @@
+/* NAV BAR */
+.Navbar {
+    background-color: rgb(247, 149, 217);
+    font-style: normal;
+    color: beige;
+    text-align: center;
+    -webkit-text-fill-color: aqua;
+    min-height: 60px;
+    min-width: 950px;
+    position: fixed;
+    font-size: xx-large;
+    top: 0;
+
+}
+
+a {
+    padding: 15px;
+    color: #3e4acc;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    text-align: justify;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    text-decoration: tomato;
+}
+.column{
+    float:left;
+    width:50%
+
+}
+.row {
+    display:flex;
+
+}
+.column {
+    flex:50%;
+}
+.img-fluid {
+    height: 300px;
+    border-radius: 5%;
+}
+.img-fluid:hover {
+    filter: grayscale(5%);
+    /* Brings back most of the image's color when hovered over */
+    transition: transform 1s;
+    /* Transition lasts 1 second */
+    transform: scale(1.1);
+    /* Image is increased slightly when hovered over */
+}
+
+
+
+
+
+
+h2{
+        text-align: center;
+        padding-top: 50px;
+        text-align: justify;
+}
+body{
+    background: rgb(214, 255, 245);
+}
+/*
+#img-hover { 
+
+   background-image: url('first-image-url');
+    height: 20vw;
+    width: 20vw;
+    background-size:contain; }
+#img-hover:hover {
+    background-image: url('second-image-url');
+
+ }
+And here is the code to put on your site where you want to see this image effect show up on your site:
+
+<div id="img-hover"></div>
+*/

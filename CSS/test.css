@@ -1,0 +1,57 @@
+.Navbar {
+    background-color: rgb(229, 192, 124);
+    font-style: normal;
+    color: beige;
+    text-align: center;
+    -webkit-text-fill-color: aqua;
+    min-height: 60px;
+    min-width: 950px;
+    position: fixed;
+    font-size: xx-large;
+    top: 0;
+
+}
+
+a {
+    padding: 15px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    text-align: justify;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.column1 {
+    float: left;
+    width: 50%
+}
+
+.row {
+    display: flex;
+
+}
+
+.column2 {
+    flex: 50%;
+}
+
+.img-fluid {
+    height: 300px;
+    border-radius: 5%;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 50px;
+    text-align: justify;
+}
+
+body {
+    background: rgb(189, 189, 189);
+}
